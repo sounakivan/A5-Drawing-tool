@@ -1,0 +1,99 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.ui-parent {
+    background: rgb(100,97,105);
+    background: linear-gradient(73deg, rgba(100,97,105,1) 0%, rgba(178,175,190,1) 100%);
+    border: none;
+    border-radius: 35px;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.menu-icon {
+    background-color: lightpink;
+    border: 5px black;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.menu-icon:hover {
+    background-color: hotpink;
+    transform: translate(0px, -5px);
+    transition: transform 300ms ease-in-out;
+}
+
+.draw-icon {
+    background-color: powderblue;
+    border: none;
+    color: white;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.draw-icon:hover {
+    background-color: deepskyblue;
+    transform: translate(0px, -5px);
+    transition: transform 300ms ease-in-out;
+}
+
+.draw-size-box {
+    background-color: powderblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0px 0px 15px;
+    text-align: left;
+    font-family: 'Averia Sans Libre';
+    font-size: 14px;
+    color: black;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.menu-box {
+    background-color: lightpink;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Averia Sans Libre';
+    font-size: 14px;
+    color: black;
+    box-shadow: 2px 4px 3px rgba(0,0,0,0.6);
+}
+
+.save-icon-img {
+    background-color: lightgreen;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.save-icon-img:hover {
+    background-color: lawngreen;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.new-icon-img {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.new-icon-img:hover {
+    background-color: yellow;
+    border: none;
+    border-radius: 4px;
+    padding: 3px;
+}
